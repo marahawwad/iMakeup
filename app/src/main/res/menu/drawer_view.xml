@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="الصفحة الرئيسية" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="الحجوزات" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_new_releases_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="العروض" />
+        <item
+            android:id="@+id/nav_notfiy"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="التنبيهات" />
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="أعجبني" />
+    </group>
+
+    <item android:title="">
+        <menu>
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="اتصل بنا"/>
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="حول التطبيق"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="تسجيل خروج"/>
+        </menu>
+    </item>
+</menu>
